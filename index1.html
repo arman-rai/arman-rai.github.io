@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>अर्मन को बारेमा</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="android-chrome-512x512" sizes="512x512" href="/assets/android-chrome-512x512.png">
+    <link rel="android-chrome-192x192" sizes="192x192" href="/assets/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap CSS for navbar -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google Fonts (example) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">arman rai</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+                <!-- Dark Mode Toggle Button -->
+                <li class="nav-item">
+                    <button class="btn btn-dark" id="dark-mode-toggle">
+                        <i class="fas fa-moon"></i> Theme
+                    </button>
+                </li>              
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Me Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="profile-image">
+                    <img src="/assets/subaru.png" class="img-fluid rounded-circle" alt="Profile Picture">
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="about-content">
+                    <h2>मेरो बारेमा</h2>
+                    <p>Just a regular CS undergraduate enjoying exploring tech and tinkering with computers.</p>
+                </div>
+
+<!-- About Me Section - Interactive Elements -->
+<div class="accordion" id="aboutAccordion">
+    <!-- Accordion Item 1 -->
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    More Details
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#aboutAccordion">
+            <div class="card-body">
+                <!-- Content for Accordion Item 1 -->
+                Currently in tutorial and documentation hell. Re-reading and forgetting has become a habit.<br> Currently studying in PMC 1<sup>st</sup> Year and 2<sup>nd</sup> Semester.
+            </div>
+        </div>
+    </div>
+
+    <!-- Accordion Item 2 -->
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Skills
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#aboutAccordion">
+            <div class="card-body">
+                <!-- Content for Accordion Item 2 -->
+                Mostly things learnt in college : C, C++ (intermediate), problem-solving, team collab, learning and practicing, good comms, time management (not so much) 
+                <br> I can't really remember skills that I have rn.
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Connect with me</h2>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <!-- Add social media icons with links -->
+        <div class="social-icons mt-4">
+            <a href="https://github.com/arman-rai" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/rai-arman" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- Add more social icons -->
+        </div>
+        <!-- Embed a map using Google Maps API -->
+        <div id="map" class="mt-4" style="height: 300px;"></div>
+    </div>
+</section>
+
+
+<!-- Add JavaScript for dark mode toggle and other interactions -->
+<script src="script1.js"></script>
+<!-- Bootstrap JS and jQuery for navbar functionality -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Go to Top Button -->
+<button id="goToTop" class="go-to-top">Top</button>
+
+</body>
+</html>
