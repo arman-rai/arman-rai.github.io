@@ -13,16 +13,16 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    background-image: url("https://iili.io/dHIW5tR.md.jpg");
+    background-image: url("/assets/mountain.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 /* Navbar Brand Style */
 .navbar-brand {
-    border: 2px solid #333; /* Solid border */
-    padding: 5px 10px; /* Adjust padding as needed */
-    border-radius: 5px; /* Optional: rounded corners */
+    border: 2px solid #333;
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 /* Dark Mode Navbar Brand Style */
@@ -46,12 +46,12 @@ body.dark-mode .navbar-brand {
 }
 
 .navbar-brand:hover {
-    color: #ff9900; /* Hover color */
-    transform: scale(1.05); /* Example: Scale on hover */
+    color: #ff9900; 
+    transform: scale(1.05); 
 }
 
 .navbar-toggler-icon {
-    color: #fff; /* Navbar toggler color */
+    color: #fff; 
 }
 
 .navbar-nav {
@@ -82,7 +82,7 @@ body.dark-mode .navbar-brand {
 body.dark-mode {
     background-color: #333;
     color: #f9f9f9;
-    background-image: url("/dark-bg-img.webp"); /* Replace with your dark mode background image path */
+    background-image: url("/dark-bg-img.webp"); 
     background-size: cover;
     background-attachment: fixed;
 }
@@ -103,8 +103,8 @@ body.dark-mode .navbar {
 }
 
 #dark-mode-toggle:hover {
-    background-color: #000000; /* Hover background color */
-    color: #fff; /* Hover text color */
+    background-color: #000000; 
+    color: #fff; 
 }
 
 /* About Me Section */
@@ -243,14 +243,14 @@ form {
 
 .form-control::placeholder {
     text-align: center;
-    color: #999; /* Adjust the placeholder text color if needed */
+    color: #999; 
 }
 
 .form-control {
     text-align: center;
-    height: 50px; /* Adjust height if necessary */
+    height: 50px; 
     padding: 10px;
-    font-size: 16px; /* Adjust font size if necessary */
+    font-size: 16px; 
 }
 
 
@@ -285,7 +285,7 @@ button[type="submit"]:hover {
 }
 /* Dark Mode Social Icons Styles */
 body.dark-mode .social-icons a {
-    color: #f9f9f9; /* Change to the desired color */
+    color: #f9f9f9; 
 }
 
 /* Dark Mode Form Styles */
@@ -296,22 +296,22 @@ body.dark-mode .form-control {
 }
 
 body.dark-mode .form-control::placeholder {
-    color: #ccc; /* Adjust the placeholder text color for dark mode if needed */
+    color: #ccc; 
 }
 
 
 body.dark-mode .social-icons a:hover {
-    color: #00f2fe; /* Change to the desired hover color */
+    color: #00f2fe;
 }
 
 /* Default Social Icons Styles */
 .social-icons a {
-    color: #333; /* Default color */
+    color: #333;
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #4facfe; /* Default hover color */
+    color: #4facfe; 
 }
