@@ -36,7 +36,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
     if (document.body.classList.contains('dark-mode')) {
         document.body.style.backgroundImage = 'url("/assets/dark-bg-img.webp")';
     } else {
-        document.body.style.backgroundImage = 'url("https://freeimage.host/i/dHIW5tR")'; 
+        document.body.style.backgroundImage = 'url("https://iili.io/dHIW5tR.md.jpg")'; 
 });
 
     // Example animation: Trigger animation on scroll
