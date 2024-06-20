@@ -13,7 +13,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    background-image: url("/assets/mountain.jpg");
+    background-image: url("/assets/bg_mountain.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
