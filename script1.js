@@ -34,10 +34,9 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
     
     // Change background image based on dark mode status
     if (document.body.classList.contains('dark-mode')) {
-        document.body.style.backgroundImage = 'url("/assets/dark-bg-img.webp")'; // Replace with your dark mode background image path
+        document.body.style.backgroundImage = 'url("/assets/dark-bg-img.webp")';
     } else {
-        document.body.style.backgroundImage = 'url("/assets/bg_mountain.jpg")'; // Replace with your light mode background image path
-    }
+        document.body.style.backgroundImage = 'url("https://freeimage.host/i/dHIW5tR")'; 
 });
 
     // Example animation: Trigger animation on scroll
@@ -137,9 +136,9 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
     
     // Change background image based on dark mode status
     if (document.body.classList.contains('dark-mode')) {
-        document.body.style.backgroundImage = 'url("https://www.flaticon.com/free-icons/light-mode")'; // Replace with your dark mode background image path
+        document.body.style.backgroundImage = 'url("https://www.flaticon.com/free-icons/light-mode")'; 
     } else {
-        document.body.style.backgroundImage = 'url("https://www.flaticon.com/free-icons/dark")'; // Replace with your light mode background image path
+        document.body.style.backgroundImage = 'url("https://www.flaticon.com/free-icons/dark")'; 
     }
 });
 
