@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
             alert('Please fill in all fields.');
             return false;
         }
-
-        // Additional validation logic (e.g., email format) can be added here
-
         return true;
     }
 
@@ -36,7 +33,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
     if (document.body.classList.contains('dark-mode')) {
         document.body.style.backgroundImage = 'url("/assets/dark-bg-img.webp")'; 
     } else {
-        document.body.style.backgroundImage = 'url("https://iili.io/dHIW5tR.md.jpg")'; 
+        document.body.style.backgroundImage = 'url("/assets/bg_mountain.jpg")'; 
     }
 });
 
